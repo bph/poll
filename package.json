@@ -1,0 +1,24 @@
+{
+	"name": "poll",
+	"version": "0.1.0",
+	"description": "Create a one-question poll for your post and display the results",
+	"author": "Birgit Pauli-Haack",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"dependencies": {
+		"@wordpress/blocks": "^6.14.1",
+		"@wordpress/i18n": "^4.2.4",
+		"react-google-charts": "^3.0.15"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^19.2.2"
+	}
+}

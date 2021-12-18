@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "pauli/poll",
+	"version": "0.1.0",
+	"title": "Poll Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Create a one-question poll for your post and display the results",
+	"supports": {
+		"html": false,
+		"customClassName":false,
+		"multiple": false
+	},
+	"attributes" :{
+		"title" :{
+			"type" : "string",
+			"default" : "It's working"
+		}
+	},
+	"textdomain": "poll",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
